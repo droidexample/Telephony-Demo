@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="ex: 1234567890"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/smsBody"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Write your sms here...." />
+
+    <Button
+        android:id="@+id/smsManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send sms by SmsManager" />
+
+    <Button
+        android:id="@+id/smsIntent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send  sms by Intent" />
+
+    <Button
+        android:id="@+id/smsView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send sms by VIEW" />
+
+</LinearLayout>
